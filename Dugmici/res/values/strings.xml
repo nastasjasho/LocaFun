@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dugmici</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_history">History</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_home">Location App</string>
+    <string name="home">Home</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_add_reminders">AddRemindersActivity</string>
+
+</resources>
