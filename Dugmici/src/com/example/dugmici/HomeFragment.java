@@ -34,7 +34,7 @@ public class HomeFragment extends Fragment {
 		
 final Button btnWalk = (Button) rootView.findViewById(R.id.walk);
 
-		
+		//demonstracija
         btnWalk.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
             	Intent walkIntent = new Intent(getActivity(),
