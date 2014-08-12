@@ -34,7 +34,7 @@
             android:layout_height="176dp" />
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/taskTitle"
             android:layout_width="261dp"
             android:layout_height="match_parent"
             android:layout_weight="0.63"
