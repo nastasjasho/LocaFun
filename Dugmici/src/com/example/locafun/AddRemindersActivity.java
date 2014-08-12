@@ -1,7 +1,8 @@
-package com.example.dugmici;
+package com.example.locafun;
 
 
 
+import com.example.dugmici.R;
 import com.example.dugmici.model.Reminder;
 
 import android.app.Activity;

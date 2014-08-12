@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_alignParentRight="true"
     android:background="@drawable/highway"
-    tools:context="com.example.dugmici.HomeFragment" >
+    tools:context="com.example.locafun.HomeFragment" >
 
     <LinearLayout
         android:id="@+id/LinearLayout1"

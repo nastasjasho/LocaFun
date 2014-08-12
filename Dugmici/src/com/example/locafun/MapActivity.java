@@ -1,6 +1,7 @@
-package com.example.dugmici;
+package com.example.locafun;
 
 
+import com.example.dugmici.R;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.location.LocationClient;

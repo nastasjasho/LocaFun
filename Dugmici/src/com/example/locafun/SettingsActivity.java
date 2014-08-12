@@ -1,4 +1,6 @@
-package com.example.dugmici;
+package com.example.locafun;
+
+import com.example.dugmici.R;
 
 import android.app.Activity;
 import android.os.Bundle;

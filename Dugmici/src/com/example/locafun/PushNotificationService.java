@@ -1,4 +1,6 @@
-package com.example.dugmici;
+package com.example.locafun;
+
+import com.example.dugmici.R;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
@@ -41,7 +43,7 @@ public class PushNotificationService extends IntentService {
 		if (!extras.isEmpty()) {
 
 				Log.i(TAG, "LATITUDE " + extras.getDouble(LATITUDE));
-				postNotification("LAT" + extras.getDouble(LATITUDE) + " LONG " + extras.getDouble(LATITUDE));
+				postNotification(extras.getString("details"));
 				Log.i(TAG, "Received: " + extras.toString());
 			
 		}

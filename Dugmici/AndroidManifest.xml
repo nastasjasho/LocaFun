@@ -37,11 +37,11 @@
             android:value="AIzaSyCQhuBNlgX1AOazPQUiKlPSJ3yNZW8nme0" />
 
         <activity
-            android:name=".MapActivity"
+            android:name="com.example.locafun.MapActivity"
             android:label="@string/title_activity_second" >
         </activity>
         <activity
-            android:name=".HomeActivity"
+            android:name="com.example.locafun.HomeActivity"
             android:label="@string/title_activity_home" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,24 +50,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.example.locafun.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
         <activity
-            android:name=".AddRemindersActivity"
+            android:name="com.example.locafun.AddRemindersActivity"
             android:label="@string/title_activity_add_reminders" >
         </activity>
         
                    <receiver
-        android:name="com.example.dugmici.PushNotificationBroadcastReceiver"
+        android:name="com.example.locafun.PushNotificationBroadcastReceiver"
         android:enabled="true"
         android:exported="false" >
         <intent-filter>
             <action android:name="LocationChangedAction" />
         </intent-filter>
     </receiver>
-    <service android:name="com.example.dugmici.PushNotificationService" />
-     <service android:name="com.example.dugmici.LocationService" />
+    <service android:name="com.example.locafun.PushNotificationService" />
+     <service android:name="com.example.locafun.LocationService" />
     </application>
 
 </manifest>

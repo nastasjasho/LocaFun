@@ -1,6 +1,8 @@
-package com.example.dugmici;
+package com.example.locafun;
 
 import java.util.Locale;
+
+import com.example.dugmici.R;
 
 import android.app.ActionBar;
 import android.app.Activity;

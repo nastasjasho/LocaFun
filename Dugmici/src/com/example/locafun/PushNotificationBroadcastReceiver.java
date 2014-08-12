@@ -1,4 +1,4 @@
-package com.example.dugmici;
+package com.example.locafun;
 
 import android.app.Activity;
 import android.content.ComponentName;
