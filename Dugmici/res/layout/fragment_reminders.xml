@@ -5,10 +5,13 @@
     android:background="@drawable/high"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/add_reminder"
-        android:layout_width="wrap_content"
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ADD REMINDER" />
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true" >
+
+    </ListView>
 
 </LinearLayout>

@@ -35,7 +35,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/taskTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -51,7 +51,7 @@
                 android:background="@drawable/bike" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/taskDetails"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

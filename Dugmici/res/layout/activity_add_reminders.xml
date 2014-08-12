@@ -5,7 +5,7 @@
     tools:context="${relativePackage}.${activityClass}" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/taskTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -16,7 +16,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/taskDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button1"
@@ -26,11 +26,11 @@
         android:inputType="textMultiLine" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/taskDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText1"
-        android:layout_alignLeft="@+id/editText1"
+        android:layout_above="@+id/taskDetail"
+        android:layout_alignLeft="@+id/taskDetail"
         android:layout_marginBottom="16dp"
         android:text="DETAILS:"
         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -40,16 +40,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/editText1"
+        android:layout_alignRight="@+id/taskDetail"
         android:layout_marginBottom="58dp"
         android:text="Button" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/taskName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/taskDetails"
+        android:layout_below="@+id/taskTitle"
         android:layout_marginTop="32dp"
         android:ems="10" />
 
